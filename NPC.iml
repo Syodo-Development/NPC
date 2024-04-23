@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.github.PowerNukkitX:PowerNukkitX:d74239ce53" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.cloudburstmc.netty:netty-transport-raknet:1.0.0.CR1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.netty:netty-common:4.1.101.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.netty:netty-buffer:4.1.101.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.netty:netty-codec:4.1.101.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.netty:netty-transport:4.1.101.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.netty:netty-resolver:4.1.101.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: net.jodah:expiringmap:0.5.10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.netty:netty-transport-classes-epoll:4.1.101.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.netty:netty-transport-native-unix-common:4.1.101.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.netty:netty-transport-classes-kqueue:4.1.101.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.logging.log4j:log4j-slf4j2-impl:2.22.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.logging.log4j:log4j-api:2.22.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.slf4j:slf4j-api:2.0.9" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.logging.log4j:log4j-core:2.22.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jetbrains:annotations:24.1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.code.gson:gson:2.10.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.guava:guava:33.0.0-jre" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.guava:failureaccess:1.0.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.checkerframework:checker-qual:3.41.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.errorprone:error_prone_annotations:2.23.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.j2objc:j2objc-annotations:2.8" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: commons-io:commons-io:2.15.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: it.unimi.dsi:fastutil:8.5.12" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: net.daporkchop:leveldb-mcpe-jni:0.0.10-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: net.daporkchop.lib:natives:0.5.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: net.daporkchop.lib:common:0.5.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: net.daporkchop.lib:unsafe:0.5.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.iq80.leveldb:leveldb:0.11.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.iq80.leveldb:leveldb-api:0.11.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.iq80.snappy:snappy:0.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.yaml:snakeyaml:2.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.github.stateless4j:stateless4j:2.6.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.commons:commons-rng-simple:1.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.commons:commons-rng-client-api:1.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.commons:commons-rng-core:1.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.commons:commons-rng-sampling:1.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.ow2.asm:asm:9.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.bitbucket.b_c:jose4j:0.9.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: net.sf.jopt-simple:jopt-simple:5.0.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.sentry:sentry:7.1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.sentry:sentry-log4j2:7.1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.lmax:disruptor:3.4.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.github.oshi:oshi-core:6.4.10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: net.java.dev.jna:jna:5.14.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: net.java.dev.jna:jna-platform:5.14.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.github.daniellansun:fast-reflection:08ec134a5c" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.github.PowerNukkitX:Terra-Binary:6.4.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.xerial.snappy:snappy-java:1.1.10.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.lz4:lz4-java:1.8.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: cn.powernukkitx:libdeflate-java:0.0.2-PNX" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jline:jline-reader:3.25.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jline:jline-terminal:3.25.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jline:jline-native:3.25.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jline:jline-terminal-jna:3.25.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: net.minecrell:terminalconsoleappender:1.3.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.graalvm.js:js-scriptengine:23.0.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.graalvm.sdk:graal-sdk:23.0.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.graalvm.js:js:23.0.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.graalvm.regex:regex:23.0.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.graalvm.truffle:truffle-api:23.0.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.ibm.icu:icu4j:72.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.graalvm.tools:chromeinspector:23.0.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.graalvm.tools:profiler:23.0.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: xyz.syodo:plugin:3.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.30" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.16.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.16.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.16.1" level="project" />
+  </component>
+</module>

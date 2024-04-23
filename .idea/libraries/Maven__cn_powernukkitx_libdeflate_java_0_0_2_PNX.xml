@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cn.powernukkitx:libdeflate-java:0.0.2-PNX">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/powernukkitx/libdeflate-java/0.0.2-PNX/libdeflate-java-0.0.2-PNX.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/powernukkitx/libdeflate-java/0.0.2-PNX/libdeflate-java-0.0.2-PNX-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/powernukkitx/libdeflate-java/0.0.2-PNX/libdeflate-java-0.0.2-PNX-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

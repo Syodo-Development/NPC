@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.iq80.leveldb:leveldb-api:0.11.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/iq80/leveldb/leveldb-api/0.11.1-SNAPSHOT/leveldb-api-0.11.1-20200302.190403-2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/iq80/leveldb/leveldb-api/0.11.1-SNAPSHOT/leveldb-api-0.11.1-20200302.190403-2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/iq80/leveldb/leveldb-api/0.11.1-SNAPSHOT/leveldb-api-0.11.1-20200302.190403-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
