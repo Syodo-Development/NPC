@@ -33,7 +33,7 @@ public class NPCCreator {
         return true;
     }
 
-    public static void spawnNPC(String name) {
+    public static EntityNPC spawnNPC(String name) {
         File file = new File(NPC.get().getDataFolder() + "/NPCS", name + ".yml");
         if(file.exists()) {
             Config config = new Config(file);
@@ -47,6 +47,8 @@ public class NPCCreator {
             );
             EntityNPC npc = new EntityNPC(location.getChunk(), EntityNPC.nbt(location, config.getString("name"), config.getString("skin"), (float) config.getDouble("scale")));
             npc.spawnToAll();
+            return npc;
         }
+        return null;
     }
 }

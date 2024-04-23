@@ -39,7 +39,6 @@ public class EntityNPC extends EntityHuman implements CustomEntity {
     public void spawnTo(Player player) {
         if (!this.hasSpawned.containsKey(player.getLoaderId())) {
             this.hasSpawned.put(player.getLoaderId(), player);
-
             this.server.updatePlayerListData(this.getUniqueId(), this.getId(), this.getName(), this.checkSkin(this.skin), new Player[]{player});
 
             AddPlayerPacket pk = new AddPlayerPacket();

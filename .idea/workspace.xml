@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca96320f-abe1-4cb5-b5fb-eef3db57b2bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/syodo/listener/ChunkListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NPC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NPC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/syodo/NPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/syodo/NPC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xyz/syodo/entity/EntityNPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/syodo/entity/EntityNPC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/syodo/utils/NPCCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/syodo/utils/NPCCreator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
