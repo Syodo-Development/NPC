@@ -13,14 +13,13 @@
       <module name="ClanSystem" target="17" />
       <module name="KitPVP" target="17" />
       <module name="MineParty" target="17" />
-      <module name="NPC" target="17" />
       <module name="Skywars" target="17" />
       <module name="TTT" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="NPC" options="--add-modules java.desktop" />
+      <module name="NPC" options="" />
       <module name="TTT" options="" />
     </option>
   </component>
