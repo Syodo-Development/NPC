@@ -75,7 +75,7 @@ public class EntityNPC extends EntityHuman implements CustomEntity {
     private Skin checkSkin(Skin skin) {
         skin.setTrusted(true);
         if (!skin.isPersona()) {
-            skin.setFullSkinId(UUID.randomUUID().toString());
+            skin.setFullSkinId(UUID.nameUUIDFromBytes(skin.getSkinData().data).toString());
         }
         return skin;
     }
