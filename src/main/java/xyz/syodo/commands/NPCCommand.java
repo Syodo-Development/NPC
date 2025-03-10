@@ -3,13 +3,8 @@ package xyz.syodo.commands;
 import cn.nukkit.Player;
 import cn.nukkit.command.Command;
 import cn.nukkit.command.CommandSender;
-import cn.nukkit.entity.Entity;
-import cn.nukkit.nbt.tag.CompoundTag;
-import cn.nukkit.nbt.tag.DoubleTag;
-import cn.nukkit.nbt.tag.FloatTag;
-import cn.nukkit.nbt.tag.ListTag;
-import xyz.syodo.entity.EntityNPC;
 import xyz.syodo.utils.NPCCreator;
+import xyz.syodo.utils.SkinSaver;
 
 public class NPCCommand extends Command {
 
@@ -37,6 +32,13 @@ public class NPCCommand extends Command {
                             }
                         } else sendHelp(p);
                         break;
+                    case "save":
+                        if(args.length == 2) {
+                            String name = args[1];
+                            SkinSaver.saveSkin(name, p.getSkin());
+                            p.sendMessage("§aSkin saved as §e" + name + ".");
+                        } else sendHelp(p);
+                        break;
                     default:
                         sendHelp(p);
                         break;
@@ -48,8 +50,9 @@ public class NPCCommand extends Command {
 
     public void sendHelp(Player p) {
         p.sendMessage(
-                "§l§eNPC HELP\n" +
-                "/npc create [NAME] [SKIN]"
+                "§l§eNPC HELP\n§r" +
+                "§e/npc create [NAME] [SKIN] §7creates a new NPC"+
+                "§e/npc save [NAME] §7saves your current skin as a NPC Skin."
         );
     }
 

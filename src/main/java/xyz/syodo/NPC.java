@@ -1,23 +1,18 @@
 package xyz.syodo;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
-
 
 import cn.nukkit.Server;
-import cn.nukkit.command.Command;
 import cn.nukkit.plugin.Plugin;
 import cn.nukkit.plugin.PluginBase;
 import cn.nukkit.registry.EntityRegistry;
 import cn.nukkit.registry.RegisterException;
 import cn.nukkit.registry.Registries;
-import cn.nukkit.utils.Config;
-import xyz.syodo.cloud.CloudAPI;
 import xyz.syodo.commands.NPCCommand;
 import xyz.syodo.entity.EntityNPC;
-import xyz.syodo.language.LanguageManager;
 import xyz.syodo.listener.ChunkListener;
+import xyz.syodo.listener.DamageListener;
+import xyz.syodo.listener.InteractListener;
 import xyz.syodo.utils.NPCCreator;
 
 public class NPC extends PluginBase {
@@ -37,6 +32,8 @@ public class NPC extends PluginBase {
 		plugin = this;
 		Server.getInstance().getCommandMap().register("npc", new NPCCommand());
 		Server.getInstance().getPluginManager().registerEvents(new ChunkListener(), get());
+		Server.getInstance().getPluginManager().registerEvents(new DamageListener(), get());
+		Server.getInstance().getPluginManager().registerEvents(new InteractListener(), get());
 		File pluginFolder = get().getDataFolder();
 		pluginFolder.mkdir();
 		File npcs = new File(pluginFolder, "NPCS");

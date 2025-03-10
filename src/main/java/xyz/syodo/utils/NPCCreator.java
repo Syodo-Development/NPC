@@ -1,14 +1,16 @@
 package xyz.syodo.utils;
 
-import cn.nukkit.Player;
 import cn.nukkit.Server;
 import cn.nukkit.level.Location;
+import cn.nukkit.nbt.tag.ListTag;
+import cn.nukkit.nbt.tag.StringTag;
 import cn.nukkit.utils.Config;
 import lombok.SneakyThrows;
 import xyz.syodo.NPC;
 import xyz.syodo.entity.EntityNPC;
 
 import java.io.File;
+import java.util.ArrayList;
 
 public class NPCCreator {
 
@@ -29,6 +31,8 @@ public class NPCCreator {
         config.set("location.yaw", location.yaw);
         config.set("location.pitch", location.pitch);
         config.set("location.level", location.level.getFolderName());
+        config.set("command.player", new ArrayList<>());
+        config.set("command.console", new ArrayList<>());
         config.save();
         return true;
     }
@@ -47,6 +51,12 @@ public class NPCCreator {
             );
             EntityNPC npc = new EntityNPC(location.getChunk(), EntityNPC.nbt(location, config.getString("name"), config.getString("skin"), (float) config.getDouble("scale")));
             npc.spawnToAll();
+            ListTag<StringTag> playerCommands = new ListTag<>();
+            ListTag<StringTag> consoleCommands = new ListTag<>();
+            config.getStringList("command.player").stream().map(StringTag::new).forEach(playerCommands::add);
+            config.getStringList("command.console").stream().map(StringTag::new).forEach(consoleCommands::add);
+            npc.namedTag.putList("playerCommands", playerCommands);
+            npc.namedTag.putList("consoleCommands", consoleCommands);
             return npc;
         }
         return null;
